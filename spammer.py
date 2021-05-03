@@ -5,7 +5,7 @@ msg = input("Enter the message: ")
 
 n = input("How many times ?: ")
 
-print ("t minus")
+print ("Countdown")
 
 count = 5
 
@@ -14,7 +14,7 @@ while (count != 0):
 	time.sleep(1)
 	count -= 1
 
-print ("Fire in the hole!!!")
+print ("Let the fun begin")
 
 for i in range(0,int(n)):
 	pyautogui.typewrite(msg + '\n')
